@@ -1,0 +1,21 @@
+{
+  "name": "node-jwt-token",
+  "version": "1.0.0",
+  "description": "\"this is my nodejs jwt application\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.2",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
